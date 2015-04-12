@@ -1,132 +1,132 @@
+
+
 <!doctype HTML>
 <hmtl>
     <head>
         <title> HackPrinceton2015</title>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <!--<script src="search.js"></script>-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="myStyle.css"/>
+        <script src="jquery.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
         <script type="text/javascript">
             //<![CDATA[ 
-            window.onload=function(){
+        window.onload=function(){
+            
             // find template and compile it
             var templateSource = document.getElementById('results-template').innerHTML,
                 template = Handlebars.compile(templateSource),
                 resultsPlaceholder = document.getElementById('results');
-
-            var fetchRelatedArtists = function (artistId, callback) {
+            
+            //Return album object
+            var getTrack = function (trackId, callback) {
                 $.ajax({
-                    url: 'https://api.spotify.com/v1/artists/' + artistId + '/related-artists',
-                    success: function (response) {
-                        callback(response);
-                    }
-                });
-            };
-                
-            var fetchRelatedPlaylists = function (playlistId, callback) {
-                $.ajax({
-                    url: 'https://api.spotify.com/v1/users/' +  + '/playlists/' + playlistId,
+                    url: 'https://api.spotify.com/v1/tracks/' + trackId,
                     success: function (response) {
                         callback(response);
                     }
                 });
             };
 
-            var searchArtist = function (query, callback) {
+            var searchTrack = function (query, callback) {
                 $.ajax({
                     url: 'https://api.spotify.com/v1/search',
                     data: {
                         q: query,
-                        type: 'artist'
+                        type: 'track'
                     },
                     success: function (response) {
-                        var item = response.artists.items[0];
-                        callback(item.id, item.name);
+                        var item = response.tracks;
+                        resultsPlaceholder.innerHTML = template(response);
                     }
                 });
             };
-                
-            var searchPlaylist = function (query, callback) {
+            
+            var SongId;
+            var searchTrackTwo = function (query, callback) {
                 $.ajax({
                     url: 'https://api.spotify.com/v1/search',
                     data: {
                         q: query,
-                        type: 'playlist'
+                        type: 'track'
                     },
                     success: function (response) {
-                        var item = response.playlist.items[0];
-                        callback(item.id, item.name, item.href);
+                        var item = response.tracks.items[0].id;
+                        songId = item;
+                        
+                        console.log(songId);
+                        $("#results").html('<iframe src="http://open.spotify.com/track/' +songId+ '"></iframe>');
+                        window.open('http://open.spotify.com/track/' +songId);
                     }
                 });
             };
-                
-                
-
-            document.getElementById('search-form-for-artists').addEventListener('submit', function (e) {
+            
+            document.getElementById('search-form').addEventListener('submit', function (e) {
                 e.preventDefault();
-                var artistName = document.getElementById('query').value;
-                
-                searchArtist(artistName, function(id, foundName) {
-                    fetchRelatedArtists(id, function(relatedArtists) {
-                        relatedArtists.artistName = foundName;
-                        resultsPlaceholder.innerHTML = template(relatedArtists);
-                    });
-                });
-                
-                searchPlaylist(playlistName, function(id, foundName) {
-                    fetchRelatedPlaylists(id, function(relatedArtists) {
-                        relatedArtists.playlistName = foundName;
-                        resultsPlaceholder.innerHTML = template(relatedArtists);
-                    });
-                });
+                var trackName = document.getElementById('query').value;
+                searchTrack(trackName);         
             }, false);
-            }//]]>  
-
+            
+            function GetUrlValue(VarSearch){
+                var SearchString = window.location.search.substring(1);
+                var VariableArray = SearchString.split('&');
+                for(var i = 0; i < VariableArray.length; i++){
+                    var KeyValuePair = VariableArray[i].split('=');
+                    if(KeyValuePair[0] == VarSearch){
+                        return KeyValuePair[1];//.replaceAll("\\s","");
+                    }
+                }
+            }
+            
+            function cleanVal(val) {
+                if (typeof val === 'undefined') {
+                    val = "";
+                } else {
+                    val = val.replace(/%20/g, " ").replace(/%22/g, "");
+                }
+                return val;
+            }
+            
+            var song = GetUrlValue("song");
+            song = cleanVal(song);
+            var artist = GetUrlValue("artist");
+            artist = cleanVal(artist);
+            var songArtist = song + " "+ artist;
+            console.log(songArtist);
+            searchTrackTwo(songArtist);
+        }//]]>  
         </script>
     </head>
     
     <body>
-        <header>
-            <h1> HackPrinceton2015 </h1>
-        </header>
-        
-        <section class="container">
-            <form id="search-form-for-artists">
-                <input type="text" id="query" value="" placeholder="Type an artist's name" />
-                <input type="submit" id="search" value="Search" />
+        <div class="container-fluid">
+            <header class="row">
+                <h1 class="col-sm-12 text-center"> HackPrinceton2015 </h1>
+            </header>
+            
+            <section class="row">
+                <form id="search-form" class="col-sm-12">
+                    <div class="form-group">
+                        <input class="form-control" type="text" id="query" value="" placeholder="Type a track" />
+                        <button class="btn btn-default col-sm-offset-4" type="submit" id="search" value="Search"> Search </button>
+                    </div>
+                    <div id="results"></div>
+                </form>
+            </section>
+            <section>
                 <div id="results"></div>
-            </form>
-        </section>
-        <section class="container">
-            <form id="search-form">
-                <input type="text" id="query" value="" placeholder="Type an artist's name" />
-                <input type="submit" id="search" value="Search" />
-                <div id="results"></div>
-            </form>
-        </section>
-        
-        <script id="results-template" type="text/x-handlebars-template">
-            <h2>This is a list of <strong>{{artistName}}</strong>'s related artists</h2>
-            {{#each artists}}
-            <div class="media">
-                <div style="background-image:url({{images.1.url}})" data-album-id="{{id}}" class="media-object cover"></div>
-                <div class="media-body">
-                <h4 class="media-heading">{{name}}</h4>
+            </section>
+            
+            <script id="results-template" type="text/x-handlebars-template">
+                <div class="row">
+                    <h2 class="col-sm-12 text-center">This is a list of Tracks</h2>
                 </div>
-            </div>
-            {{/each}}
-        </script>
-        
-        <script id="playlistTemplate" type="text/x-handlebars-template">
-            <h2>This is a list of <strong>{{playlistName}}</strong>'s related playlists</h2>
-            {{#each playlists}}
-            <div class="media">
-                <!--<div style="background-image:url({{images.1.url}})" data-playlist-id="{{id}}" class="media-object cover"></div>-->
-                <div class="media-body">
-                <h4 class="media-heading">{{href}}</h4>
+                {{#each tracks.items}}
+                <div class="row">
+                        <a class="track col-sm-4" href="http://open.spotify.com/track/{{id}}" target="_blank">{{name}}</a>
+                    <p class="col-sm-4"> {{artist}}</p>
                 </div>
-            </div>
-            {{/each}}
-        </script>
-        
+                {{/each}}
+            </script>
+        </div>
     </body>
 </hmtl>
