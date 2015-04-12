@@ -1,0 +1,723 @@
+{
+  "playlists" : {
+    "href" : "https://api.spotify.com/v1/search?query=Muse&offset=0&limit=20&type=playlist&market=US",
+    "items" : [ {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1116540354/playlist/2fHjfy1CMbh2ZcMPjKFHC8"
+      },
+      "href" : "https://api.spotify.com/v1/users/1116540354/playlists/2fHjfy1CMbh2ZcMPjKFHC8",
+      "id" : "2fHjfy1CMbh2ZcMPjKFHC8",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/d90926f8a2c6c407a7140b4a38688cff7a28ecba168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/d90926f8a2c6c407a7140b4a38688cff7a28ecba168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/d90926f8a2c6c407a7140b4a38688cff7a28ecba168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "MUSE!!!",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/1116540354"
+        },
+        "href" : "https://api.spotify.com/v1/users/1116540354",
+        "id" : "1116540354",
+        "type" : "user",
+        "uri" : "spotify:user:1116540354"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/1116540354/playlists/2fHjfy1CMbh2ZcMPjKFHC8/tracks",
+        "total" : 126
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:1116540354:playlist:2fHjfy1CMbh2ZcMPjKFHC8"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/12147820030/playlist/0EuEaBHfWwrGBTubVzj4k4"
+      },
+      "href" : "https://api.spotify.com/v1/users/12147820030/playlists/0EuEaBHfWwrGBTubVzj4k4",
+      "id" : "0EuEaBHfWwrGBTubVzj4k4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/53b942b5ef0b23c84ae5281865236609c132bff53e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/53b942b5ef0b23c84ae5281865236609c132bff53e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/53b942b5ef0b23c84ae5281865236609c132bff53e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "MUSE",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/12147820030"
+        },
+        "href" : "https://api.spotify.com/v1/users/12147820030",
+        "id" : "12147820030",
+        "type" : "user",
+        "uri" : "spotify:user:12147820030"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/12147820030/playlists/0EuEaBHfWwrGBTubVzj4k4/tracks",
+        "total" : 96
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:12147820030:playlist:0EuEaBHfWwrGBTubVzj4k4"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/iagomiudito/playlist/2jzQr499soI17D5ESWijqD"
+      },
+      "href" : "https://api.spotify.com/v1/users/iagomiudito/playlists/2jzQr499soI17D5ESWijqD",
+      "id" : "2jzQr499soI17D5ESWijqD",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/4ca55ab16f598335b52c9f2103708042d85e2ad2d90926f8a2c6c407a7140b4a38688cff7a28ecbad33ea0486a7ef0af4172cf297e827fcc68ea6258bbe91a22588e72576f3824bb4670a5cbafde5cf1",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/4ca55ab16f598335b52c9f2103708042d85e2ad2d90926f8a2c6c407a7140b4a38688cff7a28ecbad33ea0486a7ef0af4172cf297e827fcc68ea6258bbe91a22588e72576f3824bb4670a5cbafde5cf1",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/4ca55ab16f598335b52c9f2103708042d85e2ad2d90926f8a2c6c407a7140b4a38688cff7a28ecbad33ea0486a7ef0af4172cf297e827fcc68ea6258bbe91a22588e72576f3824bb4670a5cbafde5cf1",
+        "width" : 60
+      } ],
+      "name" : "muse,placebo,etc",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/iagomiudito"
+        },
+        "href" : "https://api.spotify.com/v1/users/iagomiudito",
+        "id" : "iagomiudito",
+        "type" : "user",
+        "uri" : "spotify:user:iagomiudito"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/iagomiudito/playlists/2jzQr499soI17D5ESWijqD/tracks",
+        "total" : 766
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:iagomiudito:playlist:2jzQr499soI17D5ESWijqD"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify_france/playlist/6oxSqLhAncPIQLkJX0VPqe"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify_france/playlists/6oxSqLhAncPIQLkJX0VPqe",
+      "id" : "6oxSqLhAncPIQLkJX0VPqe",
+      "images" : [ {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/2272b2ad6aa73126b93e92a4bbc45c7c7374d933",
+        "width" : 300
+      } ],
+      "name" : "Best of Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/spotify_france"
+        },
+        "href" : "https://api.spotify.com/v1/users/spotify_france",
+        "id" : "spotify_france",
+        "type" : "user",
+        "uri" : "spotify:user:spotify_france"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/spotify_france/playlists/6oxSqLhAncPIQLkJX0VPqe/tracks",
+        "total" : 35
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:spotify_france:playlist:6oxSqLhAncPIQLkJX0VPqe"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/dupingdelight/playlist/0WFfRNLRYh4l3nIV6HdVRy"
+      },
+      "href" : "https://api.spotify.com/v1/users/dupingdelight/playlists/0WFfRNLRYh4l3nIV6HdVRy",
+      "id" : "0WFfRNLRYh4l3nIV6HdVRy",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/9b9b295e844793161d56e05521f0b0244ab605633e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/9b9b295e844793161d56e05521f0b0244ab605633e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/9b9b295e844793161d56e05521f0b0244ab605633e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/dupingdelight"
+        },
+        "href" : "https://api.spotify.com/v1/users/dupingdelight",
+        "id" : "dupingdelight",
+        "type" : "user",
+        "uri" : "spotify:user:dupingdelight"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/dupingdelight/playlists/0WFfRNLRYh4l3nIV6HdVRy/tracks",
+        "total" : 71
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:dupingdelight:playlist:0WFfRNLRYh4l3nIV6HdVRy"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/troyeftlorde/playlist/5adnN31rU4a2JgQwydKRwX"
+      },
+      "href" : "https://api.spotify.com/v1/users/troyeftlorde/playlists/5adnN31rU4a2JgQwydKRwX",
+      "id" : "5adnN31rU4a2JgQwydKRwX",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/troyeftlorde"
+        },
+        "href" : "https://api.spotify.com/v1/users/troyeftlorde",
+        "id" : "troyeftlorde",
+        "type" : "user",
+        "uri" : "spotify:user:troyeftlorde"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/troyeftlorde/playlists/5adnN31rU4a2JgQwydKRwX/tracks",
+        "total" : 46
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:troyeftlorde:playlist:5adnN31rU4a2JgQwydKRwX"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/rita.akushie/playlist/2j8m72HnvHnJ40Xnn5KSqS"
+      },
+      "href" : "https://api.spotify.com/v1/users/rita.akushie/playlists/2j8m72HnvHnJ40Xnn5KSqS",
+      "id" : "2j8m72HnvHnJ40Xnn5KSqS",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/rita.akushie"
+        },
+        "href" : "https://api.spotify.com/v1/users/rita.akushie",
+        "id" : "rita.akushie",
+        "type" : "user",
+        "uri" : "spotify:user:rita.akushie"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/rita.akushie/playlists/2j8m72HnvHnJ40Xnn5KSqS/tracks",
+        "total" : 95
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:rita.akushie:playlist:2j8m72HnvHnJ40Xnn5KSqS"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1257140431/playlist/3KT9st11Db0A2FMfGE9IyK"
+      },
+      "href" : "https://api.spotify.com/v1/users/1257140431/playlists/3KT9st11Db0A2FMfGE9IyK",
+      "id" : "3KT9st11Db0A2FMfGE9IyK",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/168ea16c5b38b5f03bc50b30f355d4bb9fb4e39d3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "MUSE",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/1257140431"
+        },
+        "href" : "https://api.spotify.com/v1/users/1257140431",
+        "id" : "1257140431",
+        "type" : "user",
+        "uri" : "spotify:user:1257140431"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/1257140431/playlists/3KT9st11Db0A2FMfGE9IyK/tracks",
+        "total" : 96
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:1257140431:playlist:3KT9st11Db0A2FMfGE9IyK"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/e.dixon1996/playlist/4amkmW3g5Iu6c1jqKipCJF"
+      },
+      "href" : "https://api.spotify.com/v1/users/e.dixon1996/playlists/4amkmW3g5Iu6c1jqKipCJF",
+      "id" : "4amkmW3g5Iu6c1jqKipCJF",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/e.dixon1996"
+        },
+        "href" : "https://api.spotify.com/v1/users/e.dixon1996",
+        "id" : "e.dixon1996",
+        "type" : "user",
+        "uri" : "spotify:user:e.dixon1996"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/e.dixon1996/playlists/4amkmW3g5Iu6c1jqKipCJF/tracks",
+        "total" : 218
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:e.dixon1996:playlist:4amkmW3g5Iu6c1jqKipCJF"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/wuzibu/playlist/0wvhBTnsXewKIrMZX75Q5X"
+      },
+      "href" : "https://api.spotify.com/v1/users/wuzibu/playlists/0wvhBTnsXewKIrMZX75Q5X",
+      "id" : "0wvhBTnsXewKIrMZX75Q5X",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe4ca55ab16f598335b52c9f2103708042d85e2ad23e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe4ca55ab16f598335b52c9f2103708042d85e2ad23e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe4ca55ab16f598335b52c9f2103708042d85e2ad23e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc5",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/wuzibu"
+        },
+        "href" : "https://api.spotify.com/v1/users/wuzibu",
+        "id" : "wuzibu",
+        "type" : "user",
+        "uri" : "spotify:user:wuzibu"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/wuzibu/playlists/0wvhBTnsXewKIrMZX75Q5X/tracks",
+        "total" : 78
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:wuzibu:playlist:0wvhBTnsXewKIrMZX75Q5X"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1290893687/playlist/3IY9uVEFevwfW2P3wRMDev"
+      },
+      "href" : "https://api.spotify.com/v1/users/1290893687/playlists/3IY9uVEFevwfW2P3wRMDev",
+      "id" : "3IY9uVEFevwfW2P3wRMDev",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/d181666ebeda1aa062a5f0250b85be6150badd0f18e37b41381114dee07580c5f0bd03e39ba292864b0f03654ab2f8d4a2d48646dcd565823f17fbdfa899d09e677fdbdd9d7dcdf4d49c6ab6f5885fbe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/d181666ebeda1aa062a5f0250b85be6150badd0f18e37b41381114dee07580c5f0bd03e39ba292864b0f03654ab2f8d4a2d48646dcd565823f17fbdfa899d09e677fdbdd9d7dcdf4d49c6ab6f5885fbe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/d181666ebeda1aa062a5f0250b85be6150badd0f18e37b41381114dee07580c5f0bd03e39ba292864b0f03654ab2f8d4a2d48646dcd565823f17fbdfa899d09e677fdbdd9d7dcdf4d49c6ab6f5885fbe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/1290893687"
+        },
+        "href" : "https://api.spotify.com/v1/users/1290893687",
+        "id" : "1290893687",
+        "type" : "user",
+        "uri" : "spotify:user:1290893687"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/1290893687/playlists/3IY9uVEFevwfW2P3wRMDev/tracks",
+        "total" : 381
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:1290893687:playlist:3IY9uVEFevwfW2P3wRMDev"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mellnie/playlist/2hUzuv22WJtM4qo2vnT6zF"
+      },
+      "href" : "https://api.spotify.com/v1/users/mellnie/playlists/2hUzuv22WJtM4qo2vnT6zF",
+      "id" : "2hUzuv22WJtM4qo2vnT6zF",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe1eb2fc7e4129e76d53f8b660a6845467f1ed47c74ca55ab16f598335b52c9f2103708042d85e2ad2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe1eb2fc7e4129e76d53f8b660a6845467f1ed47c74ca55ab16f598335b52c9f2103708042d85e2ad2",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe1eb2fc7e4129e76d53f8b660a6845467f1ed47c74ca55ab16f598335b52c9f2103708042d85e2ad2",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/mellnie"
+        },
+        "href" : "https://api.spotify.com/v1/users/mellnie",
+        "id" : "mellnie",
+        "type" : "user",
+        "uri" : "spotify:user:mellnie"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/mellnie/playlists/2hUzuv22WJtM4qo2vnT6zF/tracks",
+        "total" : 88
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:mellnie:playlist:2hUzuv22WJtM4qo2vnT6zF"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/hazelton.colton/playlist/1HwX2ApKkn0k8TamJHOMET"
+      },
+      "href" : "https://api.spotify.com/v1/users/hazelton.colton/playlists/1HwX2ApKkn0k8TamJHOMET",
+      "id" : "1HwX2ApKkn0k8TamJHOMET",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 60
+      } ],
+      "name" : "muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/hazelton.colton"
+        },
+        "href" : "https://api.spotify.com/v1/users/hazelton.colton",
+        "id" : "hazelton.colton",
+        "type" : "user",
+        "uri" : "spotify:user:hazelton.colton"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/hazelton.colton/playlists/1HwX2ApKkn0k8TamJHOMET/tracks",
+        "total" : 69
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:hazelton.colton:playlist:1HwX2ApKkn0k8TamJHOMET"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/12125848734/playlist/2AyYD7ea2OpqoJCmTN1ml6"
+      },
+      "href" : "https://api.spotify.com/v1/users/12125848734/playlists/2AyYD7ea2OpqoJCmTN1ml6",
+      "id" : "2AyYD7ea2OpqoJCmTN1ml6",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad20e4a00ba2511f86962b22587578a01b81c862a20cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad20e4a00ba2511f86962b22587578a01b81c862a20cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad20e4a00ba2511f86962b22587578a01b81c862a20cc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/12125848734"
+        },
+        "href" : "https://api.spotify.com/v1/users/12125848734",
+        "id" : "12125848734",
+        "type" : "user",
+        "uri" : "spotify:user:12125848734"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/12125848734/playlists/2AyYD7ea2OpqoJCmTN1ml6/tracks",
+        "total" : 111
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:12125848734:playlist:2AyYD7ea2OpqoJCmTN1ml6"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1293847872/playlist/5xZn0ev6neHw2NipOo4hWW"
+      },
+      "href" : "https://api.spotify.com/v1/users/1293847872/playlists/5xZn0ev6neHw2NipOo4hWW",
+      "id" : "5xZn0ev6neHw2NipOo4hWW",
+      "images" : [ ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/1293847872"
+        },
+        "href" : "https://api.spotify.com/v1/users/1293847872",
+        "id" : "1293847872",
+        "type" : "user",
+        "uri" : "spotify:user:1293847872"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/1293847872/playlists/5xZn0ev6neHw2NipOo4hWW/tracks",
+        "total" : 16
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:1293847872:playlist:5xZn0ev6neHw2NipOo4hWW"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/emilygander2000/playlist/2k9ovp6Bt5FS6RkGbZMRc1"
+      },
+      "href" : "https://api.spotify.com/v1/users/emilygander2000/playlists/2k9ovp6Bt5FS6RkGbZMRc1",
+      "id" : "2k9ovp6Bt5FS6RkGbZMRc1",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/bd632341d8da6a9619b7ff51a6f981a1c84e262a72d5bd1ecd38f261de6b7987283f35cd13d02fbd0fc4f5402a0a8dc60df091054b61010bdf2618ec130984e4659a23b16b43ff234cb9be1cf1ed0eb5",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/bd632341d8da6a9619b7ff51a6f981a1c84e262a72d5bd1ecd38f261de6b7987283f35cd13d02fbd0fc4f5402a0a8dc60df091054b61010bdf2618ec130984e4659a23b16b43ff234cb9be1cf1ed0eb5",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/bd632341d8da6a9619b7ff51a6f981a1c84e262a72d5bd1ecd38f261de6b7987283f35cd13d02fbd0fc4f5402a0a8dc60df091054b61010bdf2618ec130984e4659a23b16b43ff234cb9be1cf1ed0eb5",
+        "width" : 60
+      } ],
+      "name" : "muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/emilygander2000"
+        },
+        "href" : "https://api.spotify.com/v1/users/emilygander2000",
+        "id" : "emilygander2000",
+        "type" : "user",
+        "uri" : "spotify:user:emilygander2000"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/emilygander2000/playlists/2k9ovp6Bt5FS6RkGbZMRc1/tracks",
+        "total" : 35
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:emilygander2000:playlist:2k9ovp6Bt5FS6RkGbZMRc1"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/12750908/playlist/79VIc0H5CbAZ8npzs4145b"
+      },
+      "href" : "https://api.spotify.com/v1/users/12750908/playlists/79VIc0H5CbAZ8npzs4145b",
+      "id" : "79VIc0H5CbAZ8npzs4145b",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/12750908"
+        },
+        "href" : "https://api.spotify.com/v1/users/12750908",
+        "id" : "12750908",
+        "type" : "user",
+        "uri" : "spotify:user:12750908"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/12750908/playlists/79VIc0H5CbAZ8npzs4145b/tracks",
+        "total" : 113
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:12750908:playlist:79VIc0H5CbAZ8npzs4145b"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/empiremetal/playlist/2W7zCR5rOEE6VVpb4KYzdK"
+      },
+      "href" : "https://api.spotify.com/v1/users/empiremetal/playlists/2W7zCR5rOEE6VVpb4KYzdK",
+      "id" : "2W7zCR5rOEE6VVpb4KYzdK",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/5b0a4b5d2158678cde19e54da73a859eb18f01d21eb2fc7e4129e76d53f8b660a6845467f1ed47c7d90926f8a2c6c407a7140b4a38688cff7a28ecbacc938203606c1673a4e32334967f3621ed6769fe",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/empiremetal"
+        },
+        "href" : "https://api.spotify.com/v1/users/empiremetal",
+        "id" : "empiremetal",
+        "type" : "user",
+        "uri" : "spotify:user:empiremetal"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/empiremetal/playlists/2W7zCR5rOEE6VVpb4KYzdK/tracks",
+        "total" : 76
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:empiremetal:playlist:2W7zCR5rOEE6VVpb4KYzdK"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/1140169028/playlist/17zU3cVudNdMhjxRBK9PI8"
+      },
+      "href" : "https://api.spotify.com/v1/users/1140169028/playlists/17zU3cVudNdMhjxRBK9PI8",
+      "id" : "17zU3cVudNdMhjxRBK9PI8",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://mosaic.scdn.co/640/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://mosaic.scdn.co/300/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 300
+      }, {
+        "height" : 60,
+        "url" : "https://mosaic.scdn.co/60/3e3cb4a8d5a50f7bcbc90164a3167c03e3ee3bc54ca55ab16f598335b52c9f2103708042d85e2ad2cc938203606c1673a4e32334967f3621ed6769fed90926f8a2c6c407a7140b4a38688cff7a28ecba",
+        "width" : 60
+      } ],
+      "name" : "Muse",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/1140169028"
+        },
+        "href" : "https://api.spotify.com/v1/users/1140169028",
+        "id" : "1140169028",
+        "type" : "user",
+        "uri" : "spotify:user:1140169028"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/1140169028/playlists/17zU3cVudNdMhjxRBK9PI8/tracks",
+        "total" : 86
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:1140169028:playlist:17zU3cVudNdMhjxRBK9PI8"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/warnerbros.records/playlist/3T6FVWfagsxbEQR5loGimo"
+      },
+      "href" : "https://api.spotify.com/v1/users/warnerbros.records/playlists/3T6FVWfagsxbEQR5loGimo",
+      "id" : "3T6FVWfagsxbEQR5loGimo",
+      "images" : [ {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/3da0155f3a1cffdadcd89211caf9e8aaed5b162b",
+        "width" : 300
+      } ],
+      "name" : "Muse Discography",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/warnerbros.records"
+        },
+        "href" : "https://api.spotify.com/v1/users/warnerbros.records",
+        "id" : "warnerbros.records",
+        "type" : "user",
+        "uri" : "spotify:user:warnerbros.records"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/warnerbros.records/playlists/3T6FVWfagsxbEQR5loGimo/tracks",
+        "total" : 138
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:warnerbros.records:playlist:3T6FVWfagsxbEQR5loGimo"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/search?query=Muse&offset=20&limit=20&type=playlist&market=US",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 801
+  }
+}
